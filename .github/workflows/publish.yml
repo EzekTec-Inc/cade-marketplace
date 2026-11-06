@@ -1,0 +1,77 @@
+# Builds the catalog in catalog/ with `cade-marketplace` (the same reading and checks CADE AGNTS
+# uses) and publishes it to GitHub Pages, signed.
+#
+# - Pull requests: built unsigned, as a check (a plugin whose code does something its manifest
+#   doesn't declare fails the build). Forks get no secrets.
+# - main: built, signed with the MARKETPLACE_SIGNING_KEY secret, verified against the
+#   MARKETPLACE_PUBLIC_KEY variable, and deployed to Pages.
+name: Publish
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # The tool: this repository's release asset, checked against its SHA-256.
+  TOOL_TAG: tool-v0.6.7
+  TOOL_SHA256: 7516cff544819ff544ecacf505e947e5e494c0b1d410afcb66f6d6dc55244388
+
+jobs:
+  build:
+    # The tool is built against glibc 2.38; ubuntu-24.04 has 2.39.
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get cade-marketplace
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download "$TOOL_TAG" --repo "$GITHUB_REPOSITORY" \
+            --pattern cade-marketplace-linux-x86_64 --output cade-marketplace
+          echo "$TOOL_SHA256  cade-marketplace" | sha256sum --check
+          chmod +x cade-marketplace
+
+      - name: Build the catalog (unsigned check)
+        if: github.event_name == 'pull_request'
+        run: |
+          ./cade-marketplace build catalog site --name "CADE Community Marketplace"
+          ./cade-marketplace verify site
+
+      - name: Build and sign the catalog
+        if: github.event_name != 'pull_request'
+        env:
+          MARKETPLACE_SIGNING_KEY: ${{ secrets.MARKETPLACE_SIGNING_KEY }}
+          MARKETPLACE_PUBLIC_KEY: ${{ vars.MARKETPLACE_PUBLIC_KEY }}
+        run: |
+          ./cade-marketplace build catalog site \
+            --name "CADE Community Marketplace" --key-env MARKETPLACE_SIGNING_KEY
+          ./cade-marketplace verify site --public-key "$MARKETPLACE_PUBLIC_KEY"
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
