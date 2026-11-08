@@ -21,8 +21,8 @@ Give every item a clear name and description. A skill's `metadata.version` and
 
 - **You must have the right to publish it.** Submit only your own work, or work whose license
   allows redistribution. Say which license applies in the pull request.
-- **No items taken from other products** whose licenses forbid redistribution, including AGNT's
-  plugins, workflows, agents, skills and widgets.
+- **No items taken from other products** whose licenses forbid redistribution, except the
+  catalog's bundled plugin set added by the maintainers.
 - **No secrets.** Leave out API keys, tokens and personal data. Plugins ask users for their own
   credentials.
 - **Declare what a plugin does.** List its network domains and capabilities in its
