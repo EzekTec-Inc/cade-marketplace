@@ -1,0 +1,382 @@
+{
+  "plugins": [
+    {
+      "file": "atlas-cloud.agnt",
+      "displayName": "Atlas Cloud",
+      "version": "1.1.7",
+      "description": "Atlas Cloud unified AI API plugin for images, video, uploads, and chat. Supports Seedream 4.5/5.0 Lite, Flux, GPT-Image-2, Nano Banana 2, Ideogram, Qwen-Image, Wan-2.7, and OpenAI-compatible chat completions.",
+      "category": "ai",
+      "author": "AGNT",
+      "integrity": "sha256-pLX5fzACewcHaI4a+qX7csZzmZ6yLemfVtLlxfE/NWQ="
+    },
+    {
+      "file": "bankr-plugin.agnt",
+      "displayName": "Bankr",
+      "version": "2.0.0",
+      "description": "Bankr.bot integration for CADE AGNTS — AI-powered crypto trading, token launching, cross-chain swaps, Polymarket betting, and self-sustaining agent infrastructure across Base, Ethereum, Polygon, Unichain, and Solana.",
+      "category": "finance",
+      "author": "AGNT Team",
+      "integrity": "sha256-+Si+Wr6DYtDY5BJNV3raAJ3hbU+rXp4Glee0EJxTELc="
+    },
+    {
+      "file": "bitcoin-price-checker.agnt",
+      "displayName": "Bitcoin Price",
+      "version": "1.0.0",
+      "description": "Retrieve the latest Bitcoin price in USD using the CoinGecko API.",
+      "category": "finance",
+      "author": "AGNT User",
+      "integrity": "sha256-8LIEcYdaHz7WDCmE9s7tZN3fCeyGF17NpMatgymbq6I="
+    },
+    {
+      "file": "calculator-plugin.agnt",
+      "displayName": "Calculator",
+      "version": "1.0.0",
+      "description": "Provides arithmetic and scientific expression evaluation.",
+      "category": "utility",
+      "author": "AGNT User",
+      "integrity": "sha256-GhTWXOZRTrYrprTCWDVGeMqiLzfbOpwtSjYyRxRXQaU="
+    },
+    {
+      "file": "calendly-plugin.agnt",
+      "displayName": "Calendly",
+      "version": "1.1.0",
+      "description": "Calendly scheduling automation for CADE AGNTS: list event types, fetch availability, create scheduling links, book invitees, cancel events, and trigger workflows on new bookings.",
+      "category": "productivity",
+      "author": "AGNT",
+      "integrity": "sha256-BlG+hnrUkYBVqOWouZ2ehfV1qjSbzipIiG4weceMEgE="
+    },
+    {
+      "file": "chucknorris-joke-plugin.agnt",
+      "displayName": "Chuck Norris Jokes",
+      "version": "1.0.0",
+      "description": "Fetch random Chuck Norris jokes from the public Chuck Norris API.",
+      "category": "entertainment",
+      "author": "AGNT User",
+      "integrity": "sha256-MTYa169U0JljpahLveCdYOs8oDxzXQGAS7fGAbMJNIM="
+    },
+    {
+      "file": "claude-agent-plugin.agnt",
+      "displayName": "Claude Agent",
+      "version": "1.0.0",
+      "description": "Autonomous Claude Agent powered by @anthropic-ai/claude-agent-sdk. This agent can use any available CADE AGNTS tools to accomplish complex tasks autonomously.",
+      "category": "ai",
+      "author": "AGNT Team",
+      "integrity": "sha256-g5pRDsTywuo8K6+mEi3PbqUiXF9KEX/Q9gsT7uBiUGQ="
+    },
+    {
+      "file": "cua-toolkit.agnt",
+      "displayName": "Cua Computer-Use Toolkit",
+      "version": "0.3.5",
+      "description": "Autonomous desktop computer-use for CADE AGNTS, powered by the Cua Driver (trycua/cua). Lets agents see windows, read accessibility trees + screenshots, click elements by index, type text, and run a full autonomous goal loop — all in the background without stealing your cursor or focus. Self-contained: cua-setup action=ensure installs the driver + starts the daemon in one call.",
+      "category": "utility",
+      "author": "Annie (AGNT)",
+      "integrity": "sha256-T96cCkPuKw+m+41Rk0ijRSwk/KzCT7gA+PDYfWiF7jk="
+    },
+    {
+      "file": "dice-roller-plugin.agnt",
+      "displayName": "Dice Roller",
+      "version": "1.0.1",
+      "description": "Rolls dice ranging from d1 to d20 with optional count and modifier.",
+      "category": "entertainment",
+      "author": "AGNT User",
+      "integrity": "sha256-9s2JrG3eUtvfORLMgV3uZ1opP20W0+yRwaYLbgz9i58="
+    },
+    {
+      "file": "discord-plugin.agnt",
+      "displayName": "Discord",
+      "version": "1.14.2",
+      "description": "Discord integration plugin for CADE AGNTS - Send messages (with automatic message chunking for content over Discord's 2000-char limit), manage roles, receive messages, upload files with inline video/image previews, and interact with Discord servers.",
+      "category": "social",
+      "author": "AGNT Team",
+      "integrity": "sha256-HFdesPoLhJhPBIHJjmK3xzmu11wqU6B62umg5XHQsro="
+    },
+    {
+      "file": "dropbox-plugin.agnt",
+      "displayName": "Dropbox",
+      "version": "1.0.0",
+      "description": "Dropbox integration plugin for CADE AGNTS - Manage files and folders in Dropbox.",
+      "category": "productivity",
+      "author": "AGNT",
+      "integrity": "sha256-FAi64ILF2J51jBffoISKM/t8ta5dscws78tEVQFgJC8="
+    },
+    {
+      "file": "elevenlabs-plugin.agnt",
+      "displayName": "ElevenLabs",
+      "version": "1.0.0",
+      "description": "ElevenLabs voice AI for CADE AGNTS - text-to-speech (32+ languages), speech-to-text transcription with word-level timings, and voice library browsing. Industry-leading AI voice quality for videos, podcasts, and voiceovers.",
+      "category": "ai",
+      "author": "AGNT Team",
+      "integrity": "sha256-Kq8f5TGuUX/tOiGruqQuzXlyiL3Ke3gMWN7xDZLdcls="
+    },
+    {
+      "file": "ethereum-price-checker.agnt",
+      "displayName": "Ethereum Price",
+      "version": "1.0.1",
+      "description": "Retrieves the current price of Ethereum using the CoinGecko API.",
+      "category": "finance",
+      "author": "AGNT User",
+      "integrity": "sha256-RfX5cnrYicQR5Npcb/paUwikUgY5TBUM++1MWyj2Baw="
+    },
+    {
+      "file": "facebook-api-plugin.agnt",
+      "displayName": "Facebook",
+      "version": "1.0.1",
+      "description": "Interact with the Facebook Graph API to post updates, fetch user/profile/page data, and manage Facebook content.",
+      "category": "social",
+      "author": "AGNT User",
+      "integrity": "sha256-2H2Hk4/0siFBTiGuZye/hEs+lphN3sXNjgYIaE1Irso="
+    },
+    {
+      "file": "fetch-tool-plugin.agnt",
+      "displayName": "HTTP Fetch",
+      "version": "1.0.1",
+      "description": "A generic fetch tool for making HTTP requests to external APIs or websites.",
+      "category": "utility",
+      "author": "AGNT User",
+      "integrity": "sha256-ifYZShBhSW+697CIOz2MOi1OqPkukVonQ5vxduXwiEA="
+    },
+    {
+      "file": "fibonacci-sequence-plugin.agnt",
+      "displayName": "Fibonacci",
+      "version": "1.0.1",
+      "description": "Provides utilities to calculate Fibonacci numbers and generate Fibonacci sequences.",
+      "category": "utility",
+      "author": "AGNT User",
+      "integrity": "sha256-WC3inRumM8b9K3kHpuxQsveCkDelC3/+D68YGlvSPO4="
+    },
+    {
+      "file": "firecrawl-plugin.agnt",
+      "displayName": "Firecrawl",
+      "version": "1.0.0",
+      "description": "Web scraping plugin for CADE AGNTS using Firecrawl API - Extract clean markdown or HTML from any webpage.",
+      "category": "utility",
+      "author": "AGNT Team",
+      "integrity": "sha256-5nfXrZXWrlE3Lw4RmK9m7ST3GAbD62JGCaP8oOLOVIQ="
+    },
+    {
+      "file": "fs-watcher-plugin.agnt",
+      "displayName": "File System Watcher",
+      "version": "1.0.1",
+      "description": "Watch a file or directory for changes and trigger workflows on create, modify, and delete events. A single path input auto-detects whether it is a file or a directory, supports recursive subfolder watching, glob ignore patterns, and write-stability debouncing.",
+      "category": "utility",
+      "author": "AGNT",
+      "integrity": "sha256-1Ez7UE5RyaRMnjsRtubkOm4lMZbrVFJuaWT9ureNfRU="
+    },
+    {
+      "file": "github-plugin.agnt",
+      "displayName": "GitHub",
+      "version": "2.0.0",
+      "description": "GitHub integration plugin for CADE AGNTS - Full repository lifecycle: repos, branches, files, issues, comments, pull requests, reviews, releases, GitHub Actions/CI, and search. 46 actions.",
+      "category": "developer",
+      "author": "AGNT",
+      "integrity": "sha256-F8FWjENEF1PQcgWIaKpBvYyfVX/UG6SKgyS95mJgRek="
+    },
+    {
+      "file": "gmail-plugin.agnt",
+      "displayName": "Gmail",
+      "version": "1.0.1",
+      "description": "Gmail integration plugin for CADE AGNTS - Send, reply, read, organize, and manage attachments.",
+      "category": "communication",
+      "author": "AGNT",
+      "integrity": "sha256-/Zzflfsh77anZtHYMWefwOBpA5Hj6jGd+Cb3XSzOHsU="
+    },
+    {
+      "file": "google-calendar-plugin.agnt",
+      "displayName": "Google Calendar",
+      "version": "1.0.0",
+      "description": "Google Calendar integration plugin for CADE AGNTS - Manage events, check availability, create Google Meet meetings, and trigger workflows on new or upcoming events.",
+      "category": "productivity",
+      "author": "AGNT Team",
+      "integrity": "sha256-E+JDwrT/Mu7gfaHLiGln5dPXYsGqqgl2tvA1K5djSB8="
+    },
+    {
+      "file": "google-docs-plugin.agnt",
+      "displayName": "Google Docs",
+      "version": "1.0.0",
+      "description": "Google Docs integration plugin for CADE AGNTS - Create documents (including from Markdown), read, append, template with placeholder replacement, and export to PDF/HTML/Markdown.",
+      "category": "productivity",
+      "author": "AGNT Team",
+      "integrity": "sha256-jHr4YcdUT8pn60jSql+wVJ9QbRYjKp5LKEzuYmJhKTc="
+    },
+    {
+      "file": "google-drive-plugin.agnt",
+      "displayName": "Google Drive",
+      "version": "1.0.2",
+      "description": "Google Drive integration plugin for CADE AGNTS - Manage files and folders in Google Drive.",
+      "category": "productivity",
+      "author": "AGNT",
+      "integrity": "sha256-KMWqeXSUpwkpEBHabnvI3e2oWuri2wRZgowXBjqMdsQ="
+    },
+    {
+      "file": "google-meet-plugin.agnt",
+      "displayName": "Google Meet",
+      "version": "1.0.0",
+      "description": "Google Meet integration plugin for CADE AGNTS - Create instant meeting spaces, manage conferences, and retrieve recordings and transcripts.",
+      "category": "productivity",
+      "author": "AGNT Team",
+      "integrity": "sha256-xtrXvcIu11FfombsOku6+l6Mwo1Hcd+lBtraMuJre/o="
+    },
+    {
+      "file": "google-sheets-plugin.agnt",
+      "displayName": "Google Sheets",
+      "version": "1.0.1",
+      "description": "Google Sheets integration plugin for CADE AGNTS - Monitor new rows, read, write, append, and clear data in Google Sheets.",
+      "category": "productivity",
+      "author": "AGNT Team",
+      "integrity": "sha256-UyEquJqTPvvJMGkJuh7+sLb8zIowJCY1oKJJ2LETxQs="
+    },
+    {
+      "file": "google-slides-plugin.agnt",
+      "displayName": "Google Slides",
+      "version": "1.0.0",
+      "description": "Google Slides integration plugin for CADE AGNTS - Create and manage presentations.",
+      "category": "productivity",
+      "author": "AGNT",
+      "integrity": "sha256-BWIWhUr7dCddp3yoRrY/9xkfjT8CVNFzAAg5kd3gU2Y="
+    },
+    {
+      "file": "list-files-plugin.agnt",
+      "displayName": "List Files",
+      "version": "1.0.1",
+      "description": "Lists files in the current directory and provides their metadata.",
+      "category": "utility",
+      "author": "AGNT User",
+      "integrity": "sha256-SQk3mYikaXBrxufWaeBXpq7336OEbsmhao8/PojKB3I="
+    },
+    {
+      "file": "notion-plugin.agnt",
+      "displayName": "Notion",
+      "version": "1.1.1",
+      "description": "Notion integration plugin for CADE AGNTS - Search, query databases, create pages, and manage your Notion workspace.",
+      "category": "productivity",
+      "author": "AGNT Team",
+      "integrity": "sha256-rrETUAfdzac8bnCPqZ3P8mfdW/by6eKkjLe4qMlcazU="
+    },
+    {
+      "file": "obsidian-plugin.agnt",
+      "displayName": "Obsidian",
+      "version": "1.0.3",
+      "description": "Comprehensive Obsidian Local REST API integration for CADE AGNTS. Read, write, patch, search, open notes, manage periodic notes, list tags, and execute Obsidian commands.",
+      "category": "productivity",
+      "author": "AGNT",
+      "integrity": "sha256-M8TZuUQeag3RztAJrthHcgVBdYYju9IpNLHFDksHr8c="
+    },
+    {
+      "file": "openweathermap-api-plugin.agnt",
+      "displayName": "OpenWeatherMap",
+      "version": "1.0.0",
+      "description": "Tools for retrieving weather, forecasts, air pollution, and geocoding data from the OpenWeatherMap API.",
+      "category": "utility",
+      "author": "AGNT User",
+      "integrity": "sha256-VQU79md9PsCXVuXUz7G031gBgSjH8yO6lhfWSc+Kzig="
+    },
+    {
+      "file": "random-dice-roller.agnt",
+      "displayName": "Random Dice & Coin",
+      "version": "1.0.1",
+      "description": "A utility plugin to simulate rolling dice and flipping coins for games and randomization tasks.",
+      "category": "entertainment",
+      "author": "AGNT User",
+      "integrity": "sha256-xyWPMbTXe7Vm+oOqnjNyffAK1h7z6rICBtDU4moA+eU="
+    },
+    {
+      "file": "remotion-plugin.agnt",
+      "displayName": "Remotion",
+      "version": "1.0.0",
+      "description": "Compose branded videos programmatically using Remotion. Takes a shot-list of MP4s + brand config and renders a final MP4 with animated titles, CTA pills, color grading, overlay text, and voiceover. Pairs perfectly with seedance-plugin and elevenlabs-plugin.",
+      "category": "media",
+      "author": "AGNT Team",
+      "integrity": "sha256-Rxv9f6YRIw7TkjF40oawDjFsfSgpgb+rsfEWe3+NC1A="
+    },
+    {
+      "file": "seedance-plugin.agnt",
+      "displayName": "Seedance 2.0",
+      "version": "1.1.0",
+      "description": "Generate cinematic AI video clips (5-20s) using ByteDance Seedance 2.0 via OpenRouter. Supports text-to-video, first/last-frame image conditioning, native audio-video joint generation, and multimodal reference inputs (up to 9 reference images, 3 reference videos, 3 reference audio clips for cross-scene continuity and style memory).",
+      "category": "ai",
+      "author": "AGNT Team",
+      "integrity": "sha256-UReobegg9kr6xSCjmTElPQtUkA4cMg1de0tKoooTZNQ="
+    },
+    {
+      "file": "sentinel.agnt",
+      "displayName": "Sentinel Security Auditor",
+      "version": "1.0.0",
+      "description": "Drop a URL, local path, or git repo and get a comprehensive, evidence-backed security report with exact file:line:CWE findings and concrete fixes. Real scanners find the bugs (semgrep, detect-secrets, dependency audits, web recon); the LLM only explains and prioritizes — it can never invent a finding.",
+      "category": "developer",
+      "author": "AGNT",
+      "integrity": "sha256-u8yXkGjD/XU4+Ug6yTIVVo8Y8XWyFnnbiGUsgIGez0o="
+    },
+    {
+      "file": "slack-plugin.agnt",
+      "displayName": "Slack",
+      "version": "1.0.0",
+      "description": "Slack integration plugin for CADE AGNTS - Send messages, receive messages, manage channels, and interact with Slack workspaces.",
+      "category": "social",
+      "author": "AGNT Team",
+      "integrity": "sha256-Zo0HzwJtwYorhxGcs2I3NzSvtC9oWSdqbUvX5qca5Nk="
+    },
+    {
+      "file": "stripe-plugin.agnt",
+      "displayName": "Stripe",
+      "version": "1.0.1",
+      "description": "Stripe integration plugin for CADE AGNTS - Create and send invoices with line items.",
+      "category": "finance",
+      "author": "AGNT",
+      "integrity": "sha256-CHxbykgCmd+FfvXZec8RKWJHY9SAU7MNPttQN+K50Ss="
+    },
+    {
+      "file": "telegram-toolkit.agnt",
+      "displayName": "Telegram",
+      "version": "1.2.0",
+      "description": "Telegram Bot API toolkit for CADE AGNTS - send messages/media and trigger workflows from incoming Telegram bot messages, commands, channel posts, and callback buttons.",
+      "category": "social",
+      "author": "AGNT Team",
+      "integrity": "sha256-EaLkBrIE25ZafKuEd9XUO4PCbxXTw9TWkVYnggff88w="
+    },
+    {
+      "file": "twitter-plugin.agnt",
+      "displayName": "X (Twitter)",
+      "version": "1.1.0",
+      "description": "X (Twitter) integration plugin for CADE AGNTS - Post, quote, reply, search, fetch tweets/conversations, manage follows, and monitor mentions.",
+      "category": "social",
+      "author": "AGNT",
+      "integrity": "sha256-TT/e8n24WFsYkJkjeOM8Cp17+jm2J+iC4Bjq5PH6ZMs="
+    },
+    {
+      "file": "unsplash-plugin.agnt",
+      "displayName": "Unsplash",
+      "version": "1.0.0",
+      "description": "Unsplash integration plugin for CADE AGNTS - Search and download high-quality stock photos.",
+      "category": "media",
+      "author": "AGNT",
+      "integrity": "sha256-cZ+JF8vkZe2raILWFmukhgOw1kPcBSUvmm9Fmp6Onmk="
+    },
+    {
+      "file": "unturf-ai-plugin.agnt",
+      "displayName": "Unturf AI",
+      "version": "1.0.0",
+      "description": "Unturf AI integration plugin for CADE AGNTS - Free LLM and text-to-speech services without API keys.",
+      "category": "ai",
+      "author": "AGNT",
+      "integrity": "sha256-RZZNuwUqGRe8ksWEDtb9R8pSHHnF5+2D4HlNq357E7Q="
+    },
+    {
+      "file": "youtube-plugin.agnt",
+      "displayName": "YouTube",
+      "version": "1.0.2",
+      "description": "YouTube integration plugin for CADE AGNTS - Manage videos, comments, playlists, and transcriptions.",
+      "category": "media",
+      "author": "AGNT",
+      "integrity": "sha256-R2MEA3pQLVZBxnJ5+JQws1F9UCbFOOTylUphKSCOaxE="
+    },
+    {
+      "file": "zapier-plugin.agnt",
+      "displayName": "Zapier",
+      "version": "1.0.0",
+      "description": "Zapier integration plugin for CADE AGNTS - Send data to Zapier webhooks and receive triggers from Zapier.",
+      "category": "automation",
+      "author": "AGNT Team",
+      "integrity": "sha256-WMgnd6P0yuZ3cKyXnpZ5inZnKETPmfIauuFMVvgo494="
+    }
+  ]
+}
