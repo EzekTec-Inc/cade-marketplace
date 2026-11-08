@@ -22,12 +22,12 @@ concurrency:
 
 env:
   # The tool: this repository's release asset, checked against its SHA-256.
-  TOOL_TAG: tool-v0.6.7
-  TOOL_SHA256: 7516cff544819ff544ecacf505e947e5e494c0b1d410afcb66f6d6dc55244388
+  TOOL_TAG: tool-v0.6.7-ec1af7f
+  TOOL_SHA256: c574f78f3dacaea6b1e9fa473b299a17f6a50218d1789d27d095f7c291456120
 
 jobs:
   build:
-    # The tool is built against glibc 2.38; ubuntu-24.04 has 2.39.
+    # The tool is built against glibc 2.36 (needs 2.34+); ubuntu-24.04 has 2.39.
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
