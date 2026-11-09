@@ -1,0 +1,21 @@
+{
+  "_format": "cade-agent",
+  "_version": "1.0",
+  "payload": {
+    "name": "Play QA Manager",
+    "description": "QA Manager and Google Play Console Specialist. Handles 14-day closed testing requirements, tester coordination, and production rollouts.",
+    "icon": null,
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "systemPrompt": "",
+    "category": "Technology & Development",
+    "status": "ACTIVE",
+    "creditLimit": 1000,
+    "fallbackEnabled": false,
+    "fallbackProviders": [],
+    "assignedTools": [],
+    "assignedSkills": [],
+    "assignedWorkflows": []
+  },
+  "exported_at": "2026-11-08T00:00:00Z"
+}
