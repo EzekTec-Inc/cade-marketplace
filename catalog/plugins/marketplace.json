@@ -64,6 +64,24 @@
       "integrity": "sha256-twTaEkYKLp8hPoc+ZRJi8EE5/7F7PQU/rs62vd+LJc0="
     },
     {
+      "file": "color-contrast-checker.agnt",
+      "displayName": "Colour Contrast Checker",
+      "version": "1.0.0",
+      "description": "Checks the WCAG 2.2 contrast ratio between a text or UI colour and its background and suggests the nearest colours that pass.",
+      "category": "design",
+      "author": "CADE AGNTS",
+      "integrity": "sha256-WY645bWf3DaBiqOzXRyi9sMUakZBQGZPDzUDRmMDPY4="
+    },
+    {
+      "file": "color-palette-generator.agnt",
+      "displayName": "Colour Palette Generator",
+      "version": "1.0.0",
+      "description": "Generates an eleven-step tonal colour scale (50 to 950) or a colour harmony from one colour, in OKLCH, with contrast figures and CSS variables.",
+      "category": "design",
+      "author": "CADE AGNTS",
+      "integrity": "sha256-g/6vQDGzZ2Z1uzMPJGW8SzvE9ee7G3l4FVPKwoDpbT4="
+    },
+    {
       "file": "cua-toolkit.agnt",
       "displayName": "Cua Computer-Use Toolkit",
       "version": "0.3.5",
@@ -71,6 +89,15 @@
       "category": "utility",
       "author": "Annie (CADE AGNTS)",
       "integrity": "sha256-k0kZgD60+slJADR4QCmqHEpqDR+S5hwFyvf12b3F9KE="
+    },
+    {
+      "file": "design-token-converter.agnt",
+      "displayName": "Design Token Converter",
+      "version": "1.0.0",
+      "description": "Converts design tokens in the W3C Design Tokens (DTCG) JSON format into CSS custom properties, SCSS variables, a JavaScript module, flat JSON or a Tailwind theme.",
+      "category": "design",
+      "author": "CADE AGNTS",
+      "integrity": "sha256-JLWP5jQb5PtFBH1YEAXzO2JJj+xjzpdJMAiJIZAQs2c="
     },
     {
       "file": "dice-roller-plugin.agnt",
@@ -235,6 +262,15 @@
       "integrity": "sha256-w9jwSrvTR/QgicvED+i6CcoZs/L73iVxeJgD5hSwtpA="
     },
     {
+      "file": "iconify-icon-search.agnt",
+      "displayName": "Iconify Icon Search",
+      "version": "1.0.0",
+      "description": "Searches open-source icon sets through the public Iconify API and returns an icon's SVG with its icon set's licence.",
+      "category": "design",
+      "author": "CADE AGNTS",
+      "integrity": "sha256-RtoeRQ/NodIavhmz69HxHv1AGW2D+hGNbx1WZwLieeo="
+    },
+    {
       "file": "list-files-plugin.agnt",
       "displayName": "List Files",
       "version": "1.0.1",
@@ -325,6 +361,15 @@
       "integrity": "sha256-QVSXziKSBp7CFR14oApI7PciZAIOCZSqBG4sFh5nm6k="
     },
     {
+      "file": "svg-optimizer.agnt",
+      "displayName": "SVG Optimizer",
+      "version": "1.0.0",
+      "description": "Shrinks SVG markup with SVGO (removing editor metadata, redundant attributes and excess precision) and reports the bytes saved.",
+      "category": "design",
+      "author": "CADE AGNTS",
+      "integrity": "sha256-H/tA4vmWmfrGktQWVErcGunNMOjYFj62zWpWJHXvX0s="
+    },
+    {
       "file": "telegram-toolkit.agnt",
       "displayName": "Telegram",
       "version": "1.2.0",
@@ -341,6 +386,15 @@
       "category": "social",
       "author": "CADE AGNTS",
       "integrity": "sha256-yqtj3sqhqR9tipo58CYc9yKsYe9yGGun0BuVQ25OvGs="
+    },
+    {
+      "file": "type-scale-calculator.agnt",
+      "displayName": "Type Scale Calculator",
+      "version": "1.0.0",
+      "description": "Calculates a modular type scale from a base size and ratio, as fixed rem sizes or fluid CSS clamp() values between two viewport widths.",
+      "category": "design",
+      "author": "CADE AGNTS",
+      "integrity": "sha256-PUk/TlR3ycx3eXYSGFuDIg/KcHPyktJGUmb1RA9oYdg="
     },
     {
       "file": "unsplash-plugin.agnt",
