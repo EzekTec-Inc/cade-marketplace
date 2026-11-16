@@ -1,0 +1,16 @@
+frontend-slides
+
+This skill is a modified copy of material by Zara Zhang.
+
+Source:   https://github.com/zarazhangrui/frontend-slides
+Commit:   9906a34d640d2111f724544cbc50f7f130569ae1
+Path:     (repository root)
+Licence:  MIT License (LICENSE)
+
+Modified for the CADE AGNTS marketplace catalogue (2026-11-16). Changes:
+- Frontmatter rewritten for CADE AGNTS (one-sentence description, licence, metadata with version, author, category, icon and source; allowed-tools added with CADE AGNTS tool names).
+- bold-template-pack/ not bundled (it is drawn from a separate template library whose licence was not verified); every instruction that used it now uses STYLE_PRESETS.md or a custom design.
+- scripts/deploy.sh and scripts/export-pdf.sh (bash, Vercel CLI, Playwright) not bundled; Phase 6 now describes browser print-to-PDF and static hosting.
+- Opening files uses the platform's command (open, start, xdg-open) through execute_shell_command.
+- scripts/extract-pptx.py, STYLE_PRESETS.md, html-template.md, animation-patterns.md and viewport-base.css unchanged; README.md and plugins/ not bundled.
+- Attribution footer added.

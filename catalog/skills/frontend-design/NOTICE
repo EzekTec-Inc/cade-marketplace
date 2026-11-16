@@ -1,0 +1,13 @@
+frontend-design
+
+This skill is a modified copy of material by Anthropic, PBC.
+
+Source:   https://github.com/anthropics/skills
+Commit:   e4bb5d960d87126ff3b3a8af1a104b7db67560ba
+Path:     skills/frontend-design
+Licence:  Apache License 2.0 (LICENSE.txt)
+
+Modified for the CADE AGNTS marketplace catalogue (2026-11-16). Changes:
+- Frontmatter rewritten for CADE AGNTS (one-sentence description, licence, metadata with version, author, category, icon and source; allowed-tools added with CADE AGNTS tool names).
+- One sentence now names the analyze_image tool for reviewing screenshots.
+- Attribution footer added.

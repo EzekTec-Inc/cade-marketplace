@@ -1,0 +1,15 @@
+web-accessibility
+
+This skill is a modified copy of material by Addy Osmani.
+
+Source:   https://github.com/addyosmani/web-quality-skills
+Commit:   afa8da942115f2961fdbfa80807ea0b232ff6c00
+Path:     skills/accessibility
+Licence:  MIT License (LICENSE)
+
+Modified for the CADE AGNTS marketplace catalogue (2026-11-16). Changes:
+- Renamed from "accessibility" to "web-accessibility".
+- Frontmatter rewritten for CADE AGNTS (one-sentence description, licence, metadata with version, author, category, icon and source; allowed-tools added with CADE AGNTS tool names).
+- Automated-testing note says the commands run through execute_shell_command and that the Lighthouse tool comes from a connected Chrome DevTools MCP server.
+- Link to the web-quality-audit skill (not bundled) removed.
+- Attribution footer added.

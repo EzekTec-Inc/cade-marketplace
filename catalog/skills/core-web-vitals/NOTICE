@@ -1,0 +1,14 @@
+core-web-vitals
+
+This skill is a modified copy of material by Addy Osmani.
+
+Source:   https://github.com/addyosmani/web-quality-skills
+Commit:   afa8da942115f2961fdbfa80807ea0b232ff6c00
+Path:     skills/core-web-vitals
+Licence:  MIT License (LICENSE)
+
+Modified for the CADE AGNTS marketplace catalogue (2026-11-16). Changes:
+- Frontmatter rewritten for CADE AGNTS (one-sentence description, licence, metadata with version, author, category, icon and source; allowed-tools added with CADE AGNTS tool names).
+- references/MEASUREMENT.md and references/RUM.md copied unchanged from skills/performance/references/ and the links pointed at the bundled copies.
+- Link to the performance skill (not bundled) removed.
+- Attribution footer added.

@@ -1,0 +1,14 @@
+systematic-debugging
+
+This skill is a modified copy of material by Jesse Vincent.
+
+Source:   https://github.com/obra/superpowers
+Commit:   22f0b463e7a5e579904dd6211a520321035526f7
+Path:     skills/systematic-debugging
+Licence:  MIT License (LICENSE)
+
+Modified for the CADE AGNTS marketplace catalogue (2026-11-16). Changes:
+- Frontmatter rewritten for CADE AGNTS (one-sentence description, licence, metadata with version, author, category, icon and source; allowed-tools added with CADE AGNTS tool names).
+- References to the superpowers:test-driven-development and superpowers:verification-before-completion skills (not bundled) replaced by the one-line practice each stands for.
+- find-polluter.sh (bash) not bundled; root-cause-tracing.md describes the same bisection by hand.
+- Attribution footer added.

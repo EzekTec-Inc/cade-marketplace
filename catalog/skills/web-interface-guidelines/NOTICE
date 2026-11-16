@@ -1,0 +1,12 @@
+web-interface-guidelines
+
+This skill is a modified copy of material by Vercel Labs.
+
+Source:   https://github.com/vercel-labs/web-interface-guidelines
+Commit:   434b7f91364665f2f733b310ec54809bf8f37937
+Path:     command.md
+Licence:  MIT License (LICENSE)
+
+Modified for the CADE AGNTS marketplace catalogue (2026-11-16). Changes:
+- Made into a skill: SKILL.md is command.md with a new frontmatter and the $ARGUMENTS line replaced by instructions that name CADE AGNTS's file tools. The rules and output format are unchanged.
+- Attribution footer added.

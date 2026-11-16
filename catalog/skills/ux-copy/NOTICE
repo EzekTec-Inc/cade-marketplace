@@ -1,0 +1,14 @@
+ux-copy
+
+This skill is a modified copy of material by Anthropic, PBC.
+
+Source:   https://github.com/anthropics/knowledge-work-plugins
+Commit:   e91a134584eb798bac7fb0379358006a2b63b965
+Path:     design/skills/ux-copy
+Licence:  Apache License 2.0 (LICENSE.txt, the repository's LICENSE)
+
+Modified for the CADE AGNTS marketplace catalogue (2026-11-16). Changes:
+- Frontmatter rewritten for CADE AGNTS (one-sentence description, licence, metadata with version, author, category, icon and source); argument-hint removed.
+- Slash-command heading, usage block and CONNECTORS.md pointer removed.
+- "If Connectors Available" (~~placeholders) rewritten as plain "If More Context Is Available" guidance.
+- Attribution footer added.

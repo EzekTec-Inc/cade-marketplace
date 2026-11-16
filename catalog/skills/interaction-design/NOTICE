@@ -1,0 +1,13 @@
+interaction-design
+
+This skill is a modified copy of material by Seth Hobson.
+
+Source:   https://github.com/wshobson/agents
+Commit:   9c61ab243def98f72da12abd41cfcf5bcd91af9d
+Path:     plugins/ui-design/skills/interaction-design
+Licence:  MIT License (LICENSE)
+
+Modified for the CADE AGNTS marketplace catalogue (2026-11-16). Changes:
+- Frontmatter rewritten for CADE AGNTS (one-sentence description, licence, metadata with version, author, category, icon and source).
+- "Reference Files" section added listing the bundled references/.
+- Attribution footer added.
